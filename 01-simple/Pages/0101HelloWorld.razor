@@ -2,15 +2,13 @@
 
 <h1>Hello world</h1>
 <br/>
-<input type="button" @onclick="SayHello" value="Say Hello" />
-<br />
 <br />
 <pre>@message</pre>
   
 @code {
     private string message = "";
 
-    private void SayHello()
+    protected override async Task OnInitializedAsync()
     {
         message = "Hello world!!!";
     }
