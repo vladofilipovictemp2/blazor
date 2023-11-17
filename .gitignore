@@ -8,3 +8,6 @@
 .vs/VSWorkspaceState.json
 .vscode/launch.json
 .vscode/tasks.json
+/01a-simple/.vs
+/01a-simple/bin/Debug/net7.0
+/01a-simple/obj
